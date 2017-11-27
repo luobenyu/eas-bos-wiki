@@ -56,8 +56,8 @@
 - 切换到 BOS 透视图，打到对应的`.relation`文件，修改`supplierEntity`，原来是指定物料的实体，改成自定义核算项目的实体。
 - 打开 `XXXEditUI.ui`,修改F7字段的`queryInfo`，原来是指向物料的query，改成自定义核算项目的query
 
-# 5.
-> 当需要对F7控件所打个视图中的内容进行过滤时，可对F7控件设置过滤条件，使用方法如下:
+# 5.如何给F7控件设置过滤条件 
+> 当需要对F7控件所打开视图中的内容进行过滤时，可对F7控件设置过滤条件，使用方法如下:
 
 ```Java
     EntityViewInfo evi = new EntityViewInfo(); // 创建实体视图
